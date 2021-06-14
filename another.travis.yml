@@ -1,0 +1,4 @@
+language: R
+rvm: 
+- 4.0
+- R
