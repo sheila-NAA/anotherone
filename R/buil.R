@@ -8,7 +8,8 @@
 #'@seealso \code{ \link{head}}
 #'@return A matrix with the specified number of rows/columns
 #'@examples \dontrun{ x = matrix(rnorm(10),ncol = 5)
-#'              top(x, n = 2)
+#'              top(x, n = 2),
+#'              top(x)
 #'}
 
 top <- function(mat, n = 5){
